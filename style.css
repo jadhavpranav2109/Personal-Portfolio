@@ -1,0 +1,108 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation bar */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+/* Main section */
+main {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Headings */
+h2 {
+    color: #006699;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.5;
+}
+
+/* Lists */
+ul {
+    line-height: 1.8;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #006699;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background-color: #004466;
+}
+
+/* Contact form */
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    main {
+        margin: 10px;
+    }
+}
